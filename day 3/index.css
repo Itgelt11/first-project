@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("HeroImage\ \(2\).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 773px;
+}
+.navigation {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 118px;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.en {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.color {
+  color: white;
+  width: 100px;
+  height: 22px;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pure-magic {
+  color: white;
+  font-size: 80px;
+}
+.awaits {
+  color: white;
+  font-size: 250px;
+}
+.hoyr-myanga {
+  color: white;
+  font-size: 64px;
+}
+.container-2 {
+  background-image: url("Location\ image\ \(1\).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 500px;
+}
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 49px;
+}
+.card-1 {
+  background-image: url("1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 8px 8px 0px rgba(41, 114, 139, 0.25) , -8px -8px 0px rgba(31, 114, 170, 0.46);
+  cursor: pointer;
+}
+.card-2 {
+  background-image: url("2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 8px 8px 0px rgba(41, 114, 139, 0.25) , -8px -8px 0px rgba(31, 114, 170, 0.46);
+  cursor: pointer;
+}
+.card-3 {
+  background-image: url("3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 8px 8px 0px rgba(41, 114, 139, 0.25) , -8px -8px 0px rgba(31, 114, 170, 0.46);
+  cursor: pointer;
+}
+.card-4 {
+  background-image: url("4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 8px 8px 0px rgba(41, 114, 139, 0.25) , -8px -8px 0px rgba(31, 114, 170, 0.46);
+  cursor: pointer   ;
+}
+.gazruud {
+  color: rgba(253, 253, 254, 0.8);
+  font-size: 37px;
+  text-shadow: 0 4px 4.9 0 rgba(0, 0, 0, 0.65);
+  font-family: "Bebas Neue", sans-serif;
+}
+.container-3 {
+  background-image: url("Roadmap\ image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 1022px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.destination {
+  font-size: 42px;
+}
+.ready {
+  font-size: 20px;
+}
+.destinations {
+  width: 1200px;
+  height: 640px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 59px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.box-1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 513px;
+  height: 640px;
+
+}
+.destination-1 {
+  width: 513px;
+  height: 112px;
+  background-color: rgba(238, 233, 217, 1);
+  border-radius: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.sukhbaatar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ulaan {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.day-1 {
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.udur-1 {
+  width: 35;
+  height: 16px;
+}
+.destination-2 {
+  width: 513px;
+  height: 112px;
+  background-color: rgba(139, 184, 193, 0.8);
+  border-radius: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.amarbaysgalant {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.bulgan {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.day-2 {
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.udur-2 {
+  width: 35;
+  height: 16px;
+}
+.destination-3 {
+  width: 513px;
+  height: 112px;
+  background-color: rgba(170, 216, 215, 0.8);
+  border-radius: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.khorgiin {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.arkhangai {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.day-3 {
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.udur-3 {
+  width: 35;
+  height: 16px;
+}
+.destination-4 {
+  width: 513px;
+  height: 112px;
+  background-color: rgba(139, 192, 189, 0.8);
+  border-radius: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.terkhiin {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ar {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.day-4 {
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.udur-4 {
+  width: 35;
+  height: 16px;
+}
+.destination-5 {
+  width: 513px;
+  height: 112px;
+  background-color: rgba(151, 204, 224, 0.8);
+  border-radius: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.khuvsgul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.khuvsgul-1{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.day-5 {
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.udur-5 {
+  width: 35;
+  height: 16px;
+}
+.box-2{
+  width: 647px;
+  height: 640px;
+  position: relative;
+}
+.circle-1{
+  position: absolute;
+  right: 235.24px;
+  left: 146px;
+  bottom: 353.55px;
+}
+.pin {
+  width: 14px;
+  height: 14px;
+}
+.container-4{
+    background-image: url("Price&Footer\ image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1120px;
+}
+.top-section{
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pricing{
+    font-size: 42px;
+}
+.choose{
+    font-size: 20px;
+}
+.middle-section{
+    width: 1200px;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.package-1{
+    width: 384px;
+    height: 527px;
+    background-color: rgba(250, 251, 252, 1);
+    border-radius: 40px;
+    background-position: center;
+}
+.package-name{
+    width: 384px;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.heart{
+    width: 36px;
+    height: 36px;
+    padding-left: 24px;
+}
+.name{
+    font-size: 18px;
+    color: rgba(18, 19, 22, 1);
+}
+
+.package-2{
+    width: 384px;
+    height: 527px;
+    background-color: rgba(250, 251, 252, 1);
+    border-radius: 40px;
+    background-position: center;
+}
+.package-3{
+    width: 384px;
+    height: 527px;
+    background-color: rgba(250, 251, 252, 1);
+    border-radius: 40px;
+    background-position: center;
+}
