@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.container {
+.container-1{
   background-image: url("HeroImage\ \(2\).png");
   background-size: cover;
   background-position: center;
@@ -188,7 +188,26 @@
   gap: 20px;
   width: 513px;
   height: 640px;
-
+}
+.destinations:has(.destination-2:hover) .circle-2{
+  opacity: 1;
+  transition: 0.5ms;
+}
+.destinations:has(.destination-1:hover) .circle-1{
+  opacity: 1;
+  transition: 0.5ms;
+}
+.destinations:has(.destination-3:hover) .circle-3{
+  opacity: 1;
+  transition: 0.5ms;
+}
+.destinations:has(.destination-4:hover) .circle-4{
+  opacity: 1;
+  transition: 0.5ms;
+}
+.destinations:has(.destination-5:hover) .circle-5{
+  opacity: 1;
+  transition: 0.5ms;
 }
 .destination-1 {
   width: 513px;
@@ -372,9 +391,42 @@
 }
 .circle-1{
   position: absolute;
+  top: 65px;
+  right: 22.24px;
+  left: 359px;
+  bottom: 309.55px;
+  opacity: 0;
+}
+.circle-2{
+  position: absolute;
   right: 235.24px;
   left: 146px;
   bottom: 353.55px;
+  opacity: 0;
+}
+.circle-3{
+  position: absolute;
+  top: 76px;
+  right: 351.24px;
+  left: 30px;
+  bottom: 298.55px;
+  opacity: 0;
+}
+.circle-4{
+  position: absolute;
+  top: -84px;
+  right: 402.24px;
+  left: -21px;
+  bottom: 458.55px;
+  opacity: 0;
+}
+.circle-5{
+  position: absolute;
+  top: -80px;
+  right: 235.24px;
+  left: 146px;
+  bottom: 454.55px;
+  opacity: 0;
 }
 .pin {
   width: 14px;
@@ -387,13 +439,17 @@
     background-repeat: no-repeat;
     width: 1440px;
     height: 1120px;
-}
-.top-section{
-    height: 125px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
+}
+.top-section{
+    height: 85px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 .pricing{
     font-size: 42px;
@@ -407,6 +463,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 83px;
 }
 .package-1{
     width: 384px;
@@ -432,7 +489,52 @@
     font-size: 18px;
     color: rgba(18, 19, 22, 1);
 }
-
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details{
+  width: 336px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+}
+.price-section{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.includes-1{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 32px;
+}
+.includes{
+  display: flex;
+  flex-direction: row;
+  width: 336px;
+  height: 20px;
+  gap: 20px;
+}
+.check{
+  width: 20px;
+  height: 20px;
+}
+.button{
+  width: 336px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: rgba(164, 209, 226, 1);
+  border-radius: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+}
 .package-2{
     width: 384px;
     height: 527px;
@@ -447,3 +549,60 @@
     border-radius: 40px;
     background-position: center;
 }
+ .bottom-section{
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ .bottom{
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 181px;
+  justify-content: space-between;
+}
+.fb{
+  width: 24px;
+  height: 24px;
+}
+.ig{
+  width: 24px;
+  height: 24px;
+}
+.facebook{
+  display: flex;
+  flex-direction: row;
+  width: 167px;
+  height: 44px;
+  background-color: rgba(250, 251, 252, 1);
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.instagram{
+  display: flex;
+  flex-direction: row;
+  width: 171px;
+  height: 44px;
+  background-color: rgba(250, 251, 252, 1);
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fb-ig{
+  width: 358px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tour{
+  width: 101px;
+  height: 35px;
+} 
